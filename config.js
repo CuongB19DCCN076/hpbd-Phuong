@@ -18,6 +18,5 @@ var config = {
         light_candle: "Nến ư？",
         wish_message: "Chúc mừng sinh nhật",
         story: "Tin nhắn dành cho bạn",
-        light_off: "Thổi nến nè"
     }
 };
