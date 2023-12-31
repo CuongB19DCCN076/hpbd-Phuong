@@ -11,10 +11,13 @@ body {
 .container {
 	display: none;
 }
-.peach {
+/* .peach {
 	background-color: #FFDAB9;
-
 }
+.peach1 {
+	background-color: #000 !important;
+
+} */
 .peach-after {
 	-webkit-animation:peach_alive linear 8s infinite;
 	-moz-animation:peach_alive linear 8s infinite;
@@ -1390,7 +1393,7 @@ audio {
 	bottom: 0;
 	padding:10px 0px 10px 0px;
 }
-#play, #bannar_coming, #balloons_flying,#cake_fadein,#light_candle,#wish_message,#story {
+#play, #bannar_coming, #balloons_flying,#cake_fadein,#light_candle,#wish_message,#story,#light_off {
 	display: none;
 }
 
@@ -1472,3 +1475,15 @@ audio {
 	opacity: 0;
 	transition: all 6s;
 }
+@media only screen and (max-width: 600px) {
+	.abccc{
+		position: fixed;
+		top: 0;
+		left: -370px;
+		right: 0;
+		bottom: 0;
+		z-index: -5;
+		opacity: 0;
+		transition: all 6s;
+	}
+  }

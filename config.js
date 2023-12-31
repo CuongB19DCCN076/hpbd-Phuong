@@ -4,7 +4,7 @@ var config = {
         "beautiful,",  
         "lucky",
         "and have a lot of success in your life.",
-        "Happy birthday to you",
+        "Happy birthday to you <3",
     ],
     imgs: {
         "beautiful": "./imgs/phuong.png",
@@ -18,5 +18,6 @@ var config = {
         light_candle: "Nến ư？",
         wish_message: "Chúc mừng sinh nhật",
         story: "Tin nhắn dành cho bạn",
+        light_off: "Thổi nến nè"
     }
 };

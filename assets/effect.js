@@ -23,7 +23,7 @@ $('document').ready(function(){
 		$('#bulb_green').addClass('bulb-glow-green');
 		$('#bulb_pink').addClass('bulb-glow-pink');
 		$('#bulb_orange').addClass('bulb-glow-orange');
-		$('body').addClass('peach');
+		$('body').css('background-color','#FFDAB9');
 		$(this).fadeOut('slow').delay(5000).promise().done(function(){
 			$('#play').fadeIn('slow');
 		});
@@ -200,6 +200,7 @@ $('document').ready(function(){
 
 		
 	$('#wish_message').click(function(){
+		$('body').removeClass('peach-after');
 		 vw = $(window).width()/2;
 
 		$('#b1,#b2,#b3,#b4,#b5,#b6,#b7').stop();
@@ -253,7 +254,9 @@ $('document').ready(function(){
 		}
 		
 		msgLoop(0);
-		
+		setTimeout(()=> {
+			$('body').addClass('peach-after');
+		},11000)
 	});
 });
 
