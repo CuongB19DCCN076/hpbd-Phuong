@@ -1476,6 +1476,7 @@ audio {
 	transition: all 6s;
 }
 @media only screen and (max-width: 600px) {
+<<<<<<< HEAD
 	.abccc{
 		position: fixed;
 		top: 0;
@@ -1487,3 +1488,16 @@ audio {
 		transition: all 6s;
 	}
   }
+=======
+  .abccc{
+	position: fixed;
+	top: 0;
+	left: -370px;
+	right: 0;
+	bottom: 0;
+	z-index: -5;
+	opacity: 0;
+	transition: all 6s;
+	}
+}
+>>>>>>> origin/main
