@@ -1,9 +1,8 @@
 var config = {
     texts: [
-        "I wish you are always young,",      
-        "beautiful,",  
-        "lucky",
-        "and have a lot of success in your life.",
+        "Anh chúc em luôn luôn xinh đẹp",      
+        "may mắn",
+        "và gặp nhiều thành công trong cuộc sống.",
         "Happy birthday to you <3",
     ],
     imgs: {
